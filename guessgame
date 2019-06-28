@@ -1,0 +1,11 @@
+import random
+user_guess=input('enter a number:')
+user_guess=int(user_guess)
+hidden_ans=4
+
+if(user_guess<hidden_ans):
+    print("value too low")
+elif(user_guess>hidden_ans):
+    print("value too high")
+else:
+    print("you are right")
